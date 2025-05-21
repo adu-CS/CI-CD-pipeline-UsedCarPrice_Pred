@@ -11,7 +11,7 @@ with open("model.pkl", "rb") as f:
 encoders = joblib.load("label_encoder.pkl")
 
 # Title
-st.title("🚗 Used Car Price Predictor")
+st.title("🚗 Used Car Price Predictor. Its a CI/CD!")
 
 # Input form
 with st.form("car_form"):
